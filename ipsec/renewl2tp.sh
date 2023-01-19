@@ -55,7 +55,7 @@ PERMISSION () {
     fi
     BURIQ
 }
-
+fi
 clear
 NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/var/lib/akbarstorevpn/data-user-l2tp")
 	if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
