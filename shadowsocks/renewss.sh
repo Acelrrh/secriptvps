@@ -13,7 +13,18 @@ LIGHT='\033[0;37m'
 # ==========================================
 # }
 }
-BURIQ
+
+Bloman () {
+if [ -f "/etc/.$Name.ini" ]; then
+CekTwo=$(cat /etc/.$Name.ini)
+    if [ "$CekOne" = "$CekTwo" ]; then
+        res="Expired"
+    fi
+else
+res="Permission Accepted..."
+fi
+}
+
 PERMISSION () {
     MYIP=$(curl -sS ipv4.icanhazip.com)
     IZIN=$(curl -sS https://raw.githubusercontent.com/Acelrrh/premium/main/permission/ip | awk '{print $4}' | grep $MYIP)
