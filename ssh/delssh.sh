@@ -12,6 +12,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 
+
 Bloman () {
 if [ -f "/etc/.$Name.ini" ]; then
 CekTwo=$(cat /etc/.$Name.ini)
