@@ -55,7 +55,7 @@ PERMISSION () {
     fi
     BURIQ
 }
-
+fi
 clear
 if [[ "$IP" = "" ]]; then
 PUBLIC_IP=$(wget -qO- ipinfo.io/ip);
