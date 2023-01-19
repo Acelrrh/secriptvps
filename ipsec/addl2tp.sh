@@ -27,6 +27,8 @@ BURIQ () {
     fi
     done
     rm -f  /root/tmp
+    
+   
 }
 # https://raw.githubusercontent.com/Acelrrh/premium/main/permission/ip 
 MYIP=$(curl -sS ipv4.icanhazip.com)
@@ -55,7 +57,7 @@ PERMISSION () {
     fi
     BURIQ
 }
-
+fi
 clear
 if [[ "$IP" = "" ]]; then
 PUBLIC_IP=$(wget -qO- ipinfo.io/ip);
