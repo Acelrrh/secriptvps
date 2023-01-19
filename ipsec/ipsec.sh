@@ -59,6 +59,7 @@ PERMISSION () {
     fi
     BURIQ
 }
+fi
 clear
 # ==================================================
 # Link Hosting Kalian
