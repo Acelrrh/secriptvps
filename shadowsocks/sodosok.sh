@@ -13,7 +13,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # }
-
+BURIQ
 PERMISSION () {
     MYIP=$(curl -sS ipv4.icanhazip.com)
     IZIN=$(curl -sS https://raw.githubusercontent.com/Acelrrh/premium/main/permission/ip | awk '{print $4}' | grep $MYIP)
